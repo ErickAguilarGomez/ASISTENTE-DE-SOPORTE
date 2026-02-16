@@ -8,17 +8,19 @@ Ejecuta los siguientes comandos o instrucciones acorde al orden
 1. **Entorno Virtual**:
    python -m venv venv
    source venv/bin/activate  # Mac/Linux
+
+
    .\venv\Scripts\activate   # Windows
 
-2. **Instalacion**:
+3. **Instalacion**:
     pip install -r requirements.txt
 
-3. **Variables de entorno**:
+4. **Variables de entorno**:
     Crea un archivo .env basado en .env.example y agrega tu OPENAI_API_KEY.
 
-4. **Ejecución**:
+5. **Ejecución**:
     python app/run_query.py "Mi pedido #12345 no ha llegado"
 
-5. **Tests (recomendado)**:
+6. **Tests**:
     python -m pytest -v
     
