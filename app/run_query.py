@@ -43,7 +43,8 @@ prompt=ChatPromptTemplate([
 
 llm=ChatOpenAI(model="gpt-4o-mini", 
                temperature=0.000003,
-               stream_usage=True
+               stream_usage=True,
+               max_tokens=500
                )
 
 
