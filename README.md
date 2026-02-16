@@ -7,6 +7,8 @@ Ejecuta los siguientes comandos o instrucciones acorde al orden
 
 1. **Entorno Virtual**:
    python -m venv venv
+
+
    source venv/bin/activate  # Mac/Linux
 
 
